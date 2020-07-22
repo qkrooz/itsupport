@@ -1,0 +1,65 @@
+a:hover {
+  cursor: pointer;
+}
+body {
+  width: 100vw !important;
+  height: 100vh !important;
+  overflow: hidden;
+}
+/*ASIDE*/
+.bg-gedark {
+  background-color: #212529;
+}
+.nav-link {
+  color: black;
+}
+.about-button {
+  color: black;
+}
+.unfinished {
+  color: grey;
+}
+.about-button:hover {
+  text-decoration: none;
+  color: #3b73b9;
+  transition: 0.2s;
+}
+.nav-link:hover {
+  text-decoration: none;
+  color: #3b73b9;
+  transition: 0.2s;
+}
+/*GE INFO*/
+nav {
+  width: auto;
+  max-width: 10em !important;
+}
+.ge-info {
+  background: #3b73b9;
+}
+.ge-info img {
+  width: 40px;
+}
+/*USER INFO*/
+.a-user-info {
+  color: black;
+}
+.a-user-info:hover {
+  text-decoration: none;
+  color: #3b73b9;
+  transition: 0.2s;
+}
+.sso {
+  font-size: 0.8em;
+}
+.user-info img {
+  width: 40px;
+  border-radius: 20px;
+}
+.sites-header {
+  height: 48px !important;
+}
+nav > #nav-tab > .links-section > .active {
+  color: white;
+  background-color: #3b73b9;
+}

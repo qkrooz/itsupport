@@ -1,0 +1,17 @@
+.section-master-col {
+	display: flex;
+	flex-direction: column;
+}
+.master-row {
+	flex-grow: 1;
+	width: 75%;
+}
+.activities-commands {
+	min-width: 80px;
+	max-width: 80px;
+	height: auto !important;
+	background: white;
+}
+.activities-content-col {
+	background: white;
+}

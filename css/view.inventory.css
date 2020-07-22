@@ -1,0 +1,148 @@
+.inventory-master-row {
+	flex-grow: 1 !important;
+}
+.inventory-master-col {
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px !important;
+}
+.selector-row {
+	padding: 10px 0 !important;
+}
+.inventory-actions {
+	padding: 0 0 10px 0 !important;
+}
+.table-col {
+	min-height: 0;
+	flex-grow: 1;
+}
+#fetched-content {
+	flex-grow: 1 !important;
+}
+.innerfetchedcontent-fix {
+	animation-delay: .2s;
+	display: flex;
+	flex-direction: column;
+}
+.inventory-content {
+	flex-grow: 1;
+}
+.innerinventorycontent-fix {
+	height: inherit !important;
+	display: flex;
+	flex-direction: column;
+}
+.table-body {
+	height: 200px !important;
+	overflow: scroll;
+	overflow-x: hidden;
+	flex-grow: 1;
+}
+#fetched-content-table {
+	height: 200px !important;
+}
+#tbody-content-table {
+	height: 200px !important;
+}
+.custom-select {
+	width: 15%;
+	min-width: 120px;
+	align-content: flex-start;
+}
+/*Commands*/
+.inventory-commands-left {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+.inventory-commands-right {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+.audit-command-btn {
+	margin-top: 10px;
+	width: auto;
+	display: flex;
+	justify-content: start;
+	align-items: center;
+}
+.command-btn {
+	width: auto;
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	margin-right: 20px;
+}
+.command-btn svg {
+	margin-right: 5px !important;
+	height: 100% !important;
+}
+.button-text {
+	padding-top: 3px !important;
+}
+.search-input {
+	width: 25%;
+	min-width: 200px;
+	float: left;
+}
+.info-text {
+	font-weight: 300;
+}
+.page-link {
+	color: grey;
+}
+
+#inventory-loader {
+	margin-left: 1% !important;
+	width: 20px;
+	height: 20px;
+}
+/*Audit Modal*/
+#auditModal-dialog {
+	min-width: 70% !important;
+}
+.audit-buttons {
+	margin-top: 7px;
+	display: flex;
+	justify-content: space-between;
+}
+/*Add modal*/
+#add-form input {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 18px;
+	border-width: 0px;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	color: #000000;
+	border-style: solid;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+}
+.add-btn {
+	float: right;
+}
+#editForm input {
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 10px;
+	font-size: 18px;
+	border-width: 0px;
+	border-color: #ffffff;
+	background-color: #ffffff;
+	color: #000000;
+	border-style: solid;
+	border-radius: 5px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.75);
+}
+#duplicated-warning {
+	display: flex;
+	justify-content: end;
+	align-items: baseline;
+	color: red;
+}
+#excel-template-notrendering {
+	display: none;
+}

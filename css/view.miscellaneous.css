@@ -1,0 +1,35 @@
+.miscellaneous-contentmaster {
+  margin: 1% !important;
+}
+#id-pills-tab {
+  min-width: 120px !important;
+}
+.tab-content {
+  width: 500px !important;
+}
+.tab-pane {
+  margin-left: 15px !important;
+}
+.nav-link {
+  font-family: "Roboto" !important;
+}
+.quickout-container {
+  border: 1px solid black;
+}
+.card {
+  margin-bottom: 15px !important;
+  animation-duration: 1s;
+}
+#card-buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+.card-brand {
+  font-style: italic;
+}
+.card-model {
+  font-weight: 600;
+}
+.card-stock {
+  display: flex;
+}
